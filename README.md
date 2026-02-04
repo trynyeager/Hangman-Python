@@ -25,13 +25,6 @@ A terminal-based Hangman game built in Python. This project features ASCII art, 
     python hangman.py
     ```
 
-## Technical Logic
-The game utilizes a `while` loop to maintain the "Running" state. The logic flow follows this priority:
-1.  **Input Capture:** Standardizes input to lowercase.
-2.  **Letter Comparison:** Iterates through the word string to find index matches and update the "blank" list.
-3.  **Win/Loss Evaluation:** Checks if the `chance` counter has hit the limit or if the hidden word is fully revealed.
-
-
 
 ---
 *Note: This project was made way back, in December 2023. This project does not exactly show how do I code my projects now. I will soon post my recent works on Github which can give a better understanding about my work.*
